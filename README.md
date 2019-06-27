@@ -1,2 +1,2 @@
 # Slide_Android
-Swift app but for Android
+Slide app by Roodac - Android version
