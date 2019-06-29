@@ -1,4 +1,4 @@
-package com.example.slide_android;
+package com.roodac.slide_android;
 
 import org.junit.Test;
 
