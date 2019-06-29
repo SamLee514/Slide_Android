@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Slide_Android</string>
     <string name="button_login">Log in</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHInt">Password</string>
+    <string name="registerPrompt">Don\'t have an account?</string>
+    <string name="registerButton">Register</string>
+    <string name="fbloginPrompt">Continue with Facebook</string>
 </resources>
