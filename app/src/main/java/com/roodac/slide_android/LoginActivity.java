@@ -31,8 +31,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         mAuth = FirebaseAuth.getInstance();
-        emailEditText    = findViewById(R.id.emailField);
-        passwordEditText = findViewById(R.id.passwordField);
+        emailEditText    = findViewById(R.id.field_username);
+        passwordEditText = findViewById(R.id.field_password);
     }
 
     // Handle when Login button is clicked.
@@ -61,7 +61,11 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 }
             });
-
         }
+    }
+
+    public void goToRegister(View view) {
+        Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
     }
 }
