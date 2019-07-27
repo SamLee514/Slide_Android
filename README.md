@@ -1,2 +1,2 @@
 # Slide_Android
-Slide app by Roodac - Android version
+App to streamline sharing of social media profiles - Android version
